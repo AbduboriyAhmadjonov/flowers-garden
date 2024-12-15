@@ -1,0 +1,48 @@
+
+
+<!-- Filters Section -->
+<div class="col-md-3">
+    <h5>Filters</h5>
+    <div class="accordion" id="filtersAccordion">
+        <!-- Availability Filter -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingAvailability">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAvailability">
+                    Availability
+                </button>
+            </h2>
+            <div id="collapseAvailability" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                    <input type="checkbox" id="available" /> <label for="available">In Stock</label>
+                </div>
+            </div>
+        </div>
+        <!-- Price Filter -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingPrice">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePrice">
+                    Price
+                </button>
+            </h2>
+            <div id="collapsePrice" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                    <input type="range" min="0" max="18000" class="form-range" id="priceRange">
+                    <p>Price Range: Dhs. 0 - Dhs. 18,000</p>
+                </div>
+            </div>
+        </div>
+        <!-- Additional Filters -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingMoreFilters">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMoreFilters">
+                    More Filters
+                </button>
+            </h2>
+            <div id="collapseMoreFilters" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <p>Additional filters go here...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  

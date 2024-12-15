@@ -1,0 +1,18 @@
+Home
+-> Main page with some example of flowers and other little things
+
+Collections
+-> If user just press 'Collections', he will be thrown back to collections page other wise like he press what ever page, he enters it.
+
+Also 'Collections' page should have some searching thing
+
+Contact
+-> User enters page which contains a form element with (name, email, phone and comment) also with other ways to connect owners of website
+
+Search
+-> User can search by flowers name or type of something
+
+Also below the result there should have 'Last views' block
+
+Cart
+-> User first need to select an item for buying and after that he can pay for it otherwise user show 'Your cart is currently empty' and a button (Return to shop) which throw user to 'Collections' page
